@@ -1,0 +1,23 @@
+# pip install -r requirements.txt
+# pip install -r requirements.txt --no-index --find-links file:///tmp/packages
+
+# https://pip.pypa.io/en/stable/cli/pip_install/#requirement-specifiers
+# nose
+# nose-cov
+# beautifulsoup4
+# docopt == 0.6.1
+# eyring >= 4.1.1
+# coverage != 3.5
+# Mopidy-Dirble ~= 1.1
+# -r requirements_2.txt
+# --pre
+# --no-index: Ignore package index (only looking at --find-links URLs instead
+
+# --find-links /my/local/archives
+# If a local path or file:// URL that’s a directory, then look for archives in the directory listing. Links to VCS project URLs are not supported.
+
+
+# --find-links http://some.archives.com/archive
+#  If a URL or path to an html file, then parse for links to archives such as sdist (.tar.gz) or wheel (.whl) files. 
+
+# pip install --index-url http://my.package.repo/simple/ SomePackage
